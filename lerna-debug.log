@@ -1,0 +1,21 @@
+0 silly argv {
+0 silly argv   _: [ 'run' ],
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': 'node_modules\\lerna\\cli.js',
+0 silly argv   script: 'build'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath C:\Users\tmelidis\Documents\advanced_react_for_enterprise
+3 error JSONError: Unexpected token "}" (0x7D) in JSON at position 590 while parsing near "...ripts/build.js\",\r\n  },\r\n  \"husky\": {\r\n  ..." in packages\scss\package.json
+3 error
+3 error [0m [90m 21 |[39m     [32m"lint:fix"[39m[33m:[39m [32m"yarn lint --fix"[39m[33m,[39m[0m
+3 error [0m [90m 22 |[39m     [32m"build"[39m[33m:[39m [32m"node src/scripts/build.js"[39m[33m,[39m[0m
+3 error [0m[31m[1m>[22m[39m[90m 23 |[39m   }[33m,[39m[0m
+3 error [0m [90m    |[39m   [31m[1m^[22m[39m[0m
+3 error [0m [90m 24 |[39m   [32m"husky"[39m[33m:[39m {[0m
+3 error [0m [90m 25 |[39m     [32m"hooks"[39m[33m:[39m {[0m
+3 error [0m [90m 26 |[39m       [32m"pre-commit"[39m[33m:[39m [32m"lint-staged"[39m[0m
+3 error
+3 error     at parseJson (C:\Users\tmelidis\Documents\advanced_react_for_enterprise\node_modules\parse-json\index.js:29:21)
+3 error     at parse (C:\Users\tmelidis\Documents\advanced_react_for_enterprise\node_modules\load-json-file\index.js:15:9)
+3 error     at module.exports (C:\Users\tmelidis\Documents\advanced_react_for_enterprise\node_modules\load-json-file\index.js:18:47)
